@@ -13,10 +13,11 @@ import {
   STRIPE_OPTIONS
 } from '../interfaces/stripe';
 import { StripeCardComponent } from '../components/stripe-card.component';
+import { StripeIdealBankComponent } from '../components/stripe-ideal-bank.component';
 
 @NgModule({
-  declarations: [StripeCardComponent],
-  exports: [StripeCardComponent]
+  declarations: [StripeCardComponent, StripeIdealBankComponent],
+  exports: [StripeCardComponent, StripeIdealBankComponent]
 })
 export class NgxStripeModule {
   public static forRoot(

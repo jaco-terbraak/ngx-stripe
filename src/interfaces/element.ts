@@ -15,7 +15,8 @@ export type ElementType =
   | 'cardNumber'
   | 'cardExpiry'
   | 'cardCvc'
-  | 'postalCode';
+  | 'postalCode'
+  | 'idealBank';
 
 export interface ElementOptions {
   style?: {
